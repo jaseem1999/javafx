@@ -1,0 +1,12 @@
+.root{
+    -fx-background-color : "lightblue";
+}
+
+#result{
+    -fx-alignment: center-right;
+    -fx-text-fill : "black";
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-weight: bold;
+    -fx-background-color : "white";
+    -fx-font-size : 45;
+}
