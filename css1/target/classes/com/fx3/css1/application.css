@@ -1,0 +1,45 @@
+.root{
+    -fx-background-color : "black";
+}
+
+.label{
+    -fx-alignment : center;
+    -fx-text-fill : "fff";
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-weight: bold;
+}
+
+#heading{
+    -fx-font-size : 50;
+}
+
+#description {
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-color: green;
+    -fx-background-radius: 8;
+    -fx-background-insets: 2px;
+}
+
+#profileContainer {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-padding: 2px;
+    -fx-background-color: transparent;
+}
+
+#profile {
+    -fx-clip: shape; /* Ensures clipping */
+}
+
+
+
+
+
+
+
