@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx8.radiobutton.HelloController">
+   <children>
+      <RadioButton fx:id="ok" layoutX="139.0" layoutY="192.0" mnemonicParsing="false" onAction="#radioButtonManage" text="Ok">
+         <toggleGroup>
+            <ToggleGroup fx:id="select" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="no" layoutX="241.0" layoutY="192.0" mnemonicParsing="false" onAction="#radioButtonManage" text="No" toggleGroup="$select" />
+      <RadioButton fx:id="off" layoutX="326.0" layoutY="192.0" mnemonicParsing="false" onAction="#radioButtonManage" text="off" toggleGroup="$select" />
+      <RadioButton fx:id="yes" layoutX="423.0" layoutY="192.0" mnemonicParsing="false" onAction="#radioButtonManage" text="Yes" toggleGroup="$select" />
+      <Label fx:id="label" alignment="CENTER" layoutX="22.0" layoutY="76.0" prefHeight="17.0" prefWidth="557.0" text="Select">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
